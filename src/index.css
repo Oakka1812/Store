@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection{
+  background-color: #3D7C98;
+  color: #ffffff;
+}
+
+.vertical__line{
+  border-left: 2px solid #3D7C98;
+  height: 18px;
+}
+
+.horizontal__line{
+  border-bottom: 4px solid #3D7C98;
+  width: 25px;
+}
+
+@layer base{
+  button {
+    @apply border py-2 px-3 rounded-full
+  }
+ 
+}
